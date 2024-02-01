@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "description": "Description for Product 1",
+      "price": 29.99,
+      "variants": [
+        {
+          "id": 101,
+          "name": "Variant 1",
+          "sku": "SKU001",
+          "additionalCost": 5,
+          "stockCount": 100
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "description": "Description for Product 2",
+      "price": 39.99,
+      "variants": [
+        {
+          "id": 201,
+          "name": "Variant 1",
+          "sku": "SKU002",
+          "additionalCost": 8,
+          "stockCount": 50
+        },
+        {
+          "id": 202,
+          "name": "Variant 2",
+          "sku": "SKU003",
+          "additionalCost": 10,
+          "stockCount": 30
+        }
+      ]
+    },
+    {
+      "name": "New Product",
+      "description": "Description of the new product",
+      "price": 19.99,
+      "variants": [
+        {
+          "name": "Variant 1",
+          "sku": "SKU001",
+          "additionalCost": 5,
+          "stockCount": 100
+        },
+        {
+          "name": "Variant 2",
+          "sku": "SKU002",
+          "additionalCost": 8,
+          "stockCount": 50
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "New Product",
+      "description": "Description of the new product",
+      "price": 19.99,
+      "variants": [
+        {
+          "name": "Variant 1",
+          "sku": "SKU001",
+          "additionalCost": 5,
+          "stockCount": 100
+        },
+        {
+          "name": "Variant 2",
+          "sku": "SKU002",
+          "additionalCost": 8,
+          "stockCount": 50
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Test Product",
+      "description": "Test description",
+      "price": 10.99,
+      "variants": [
+        {
+          "name": "Variant 1",
+          "sku": "TEST001",
+          "additionalCost": 2,
+          "stockCount": 50
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "Existing Product",
+      "description": "Existing description",
+      "price": 25.99,
+      "variants": [
+        {
+          "name": "Existing Variant",
+          "sku": "EXIST001",
+          "additionalCost": 3,
+          "stockCount": 30
+        }
+      ],
+      "id": 6
+    }
+  ]
+}
